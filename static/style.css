@@ -1,37 +1,40 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom right, #0d1b2a, #1b263b); /* techy blue gradient */
+    background: linear-gradient(to bottom right, #0d1b2a, #1b263b);
     color: #e0e1dd;
     margin: 0;
     padding: 0;
     height: 100vh;
     background-image:
-        linear-gradient(45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%),
-        linear-gradient(-45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%),
-        linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.05) 75%),
-        linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.05) 75%);
-    background-size: 40px 40px;
+        linear-gradient(45deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.04) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.04) 75%);
+    background-size: 20px 20px;
+    background-blend-mode: overlay;
 }
 
 .container {
-    max-width: 600px;
+    max-width: 640px;
     margin: auto;
     margin-top: 100px;
-    background-color: rgba(255, 255, 255, 0.05);
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
     text-align: center;
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 h1 {
-    font-size: 2.5em;
-    color: #89c2d9;
+    font-size: 2.75em;
+    color: #00b4d8;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
 }
 
 p {
-    font-size: 1.2em;
-    color: #e0e1dd;
+    font-size: 1.3em;
+    color: #edf2f4;
+    line-height: 1.6;
 }
